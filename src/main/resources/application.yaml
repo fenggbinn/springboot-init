@@ -1,0 +1,31 @@
+#server:
+#  port: 8989
+
+
+person:
+  name: zhangshan
+  age: 20
+  address: [bj,cd,cq]
+
+person2: {name: zs,age: 20,address: [bj,cd,cq]}
+
+person3:
+  name: zs
+  age: 30
+  address:
+    - bj
+    - cd
+    - cq
+
+person4: '单引号里面的 \n 不会换行，会直接输出'
+person5: "双引号里面的 \n 会换行输出"
+
+#参数引用
+carName1: baoma
+carN: [ba,ma,ben,ci]
+#personx:
+#  car: [${carName1},${carN[1]}]
+personx:
+  car: ${carName1}
+
+age: 15
