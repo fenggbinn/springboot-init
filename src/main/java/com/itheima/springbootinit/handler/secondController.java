@@ -40,6 +40,7 @@ public class secondController {
         System.out.println(person.getAge());
         System.out.println(person);
         System.out.println("202105102202测试bean包是否push");
+        System.out.println("202105102202测试bean包是否push,原来是成功了的，只不过是我没有发现而已");
         return "控制台输出获取到的yaml文件内容";
     }
 }
